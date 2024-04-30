@@ -113,6 +113,9 @@ const Design1 = (prop) => {
                     "linear-gradient(to right top, #c7c7c7, #cecece, #d6d6d6, #dddddd, #e5e5e5);"
                   }
                 >
+                  <Image>
+{/*                      https://ik.imagekit.io/dev24/${data?.Image} */}
+                  </Image>
                   <Text fontSize={20} fontFamily={"cursive"} fontWeight={400}>
                     {item.Title}
                   </Text>
